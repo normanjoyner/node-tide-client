@@ -6,7 +6,7 @@ function TideClient(options){
 
     this.options = _.defaults(options, {
         base_url: "127.0.0.1",
-        port: 80,
+        port: 8080,
         api_version: "v1",
         timeout: 5000
     });

@@ -42,7 +42,7 @@ tide_client.get_jobs(function(err, jobs){
 ### Get Job
 Get a specific job
 ```javascript
-tide_client.get("jobname", function(err, job){
+tide_client.get_job("jobname", function(err, job){
     if(err)
         throw err;
 
